@@ -11,7 +11,7 @@ public class IdLocator {
 
 	public static void main(String[] args) throws InterruptedException {
    System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-   WebDriver driver =new ChromeDriver();
+   WebDriver driver =new ChromeDriver();//vaibhav
    driver.manage().window().maximize();
    driver.get("https:www.facebook.com/");
    driver.findElement(By.id("email")).sendKeys("admi");
